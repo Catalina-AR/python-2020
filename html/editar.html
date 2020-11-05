@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="principal">
+        <form action="contacto.html" method="POST">
+            <h1 id="titulo">Mi formulario de registro</h1>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+            <label for="pw_confirm">Confirmación:</label>
+            <input type="password" id="pw_confirm" name="password_confirmacion">
+            <br>
+            <br>
+            <label for="cumple">Cumpleaños:</label>
+            <input type="date" id="cumple" name="cumple">
+            <br>
+            <br>
+            <label for="masculino">Hombre</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="femenino">Mujer</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <br>
+            <br>
+            <label for="descripcion">Una breve descripcion de ti:</label><br><br>
+            <textarea name="descripcion"></textarea><br><br>
+
+            <label for="lenguaje">Lenguaje favorito:</label>
+            <select name="lenguaje"><br>
+                <option value="phyton">Phyton</option><br>
+                <option value="javascript">JavaScript</option><br>
+            <input type="submit" value="Enviar"><br>
+
+            <input type="button" value="Enviar"><br>
+        </form>
+
+    </div>
+</body>
+
+</html>

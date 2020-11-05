@@ -1,0 +1,23 @@
+/*selectores css*/
+
+
+/*Selector de elemento*/
+
+p {
+    color: blue;
+}
+
+
+/*id(se puede usar solo una vez)*/
+
+#important {
+    font-size: 36px;
+}
+
+
+/*class (pueden ser utilizados muchas veces para compartir codigo repetido*/
+
+.info {
+    background-color: green;
+    border: 1px solid black;
+}

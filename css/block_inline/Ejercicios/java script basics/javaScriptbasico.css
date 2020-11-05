@@ -1,0 +1,140 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 15px auto;
+}
+
+#wrapper {
+    width: 970px;
+    background-color: #1b335d;
+    margin: 1px auto;
+    padding: 15px;
+}
+
+#header {
+    height: 54px;
+    width: 975px;
+    background-color: #cf3036;
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 1pc;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    color: #c2d6eb;
+    padding: 8px;
+}
+
+#navigation {
+    display: inline-block;
+    margin-right: 13px;
+    padding: 21px;
+    min-height: 142px;
+    width: 146px;
+    background-color: #297d8c;
+    border-radius: 1pc;
+}
+
+ul {
+    text-align: left;
+    width: 730px;
+    border: 0px;
+}
+
+a {
+    color: #69dde5;
+}
+
+ul.menu {
+    text-align: left;
+    width: 730px;
+    border: 0px;
+    padding: 6px;
+    color: #69dce5;
+}
+
+span.azul {
+    color: #69dde5;
+    text-decoration: underline #69dde5;
+}
+
+span {
+    color: #7584ec;
+    text-decoration: underline #7584ec;
+}
+
+#main_content {
+    display: inline-block;
+    padding: 2px;
+    min-height: 400px;
+    width: 753px;
+    background-color: #0e1822;
+    vertical-align: top;
+    border-radius: 1pc;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #a9cbe9;
+    padding: 8px;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #a9cbe9;
+    padding: 8px;
+    font-size: 12px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #a9cbe9;
+    padding: 8px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #a9cbe9;
+    padding: 8px;
+    font-size: 12px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #a9cbe9;
+    padding: 1px;
+    font-size: 12px;
+}
+
+#advertisement {
+    min-height: 50px;
+    margin-top: 15px;
+    width: 969px;
+    background-color: #5d6673;
+    border-radius: 1pc;
+}
+
+h3 {
+    font-size: small;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px;
+    color: #b5cfe6;
+}
+
+span.link {
+    color: #69dde5;
+    text-decoration: underline #69dde5;
+    ;
+}

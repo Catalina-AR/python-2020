@@ -1,0 +1,65 @@
+/*width_height(ancho y alto(imagen por ejemplo))*/
+
+a {
+    width: 25px;
+}
+
+div {
+    width: 100%;
+    height: 200px;
+}
+
+img {
+    width: 250px;
+}
+
+
+/*overflow (determina qué debiera pasar cuando el contenido dentro de un contenedor es demasiado para el tamaño del contenedor)*/
+
+div {
+    overflow: scroll;
+}
+
+
+/*background (fondo) puede modificar el fondo de un elemento en una sola línea*/
+
+p {
+    background: #ffffff url("cherries.png") no-repeat fixed center;
+}
+
+
+/*background-color | background-image | background-position | background-size | background-repeat (Estas propiedades ajustan el fondo de acuerdo a su tipo)*/
+
+p {
+    background-color: blue;
+}
+
+div {
+    background-image: url("cherries.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+/*border ( ajusta todos los elementos de borde en una sola línea. Así, el primer valor es el grosor del borde. El segundo valor es tipo de borde, mientras que el tercero es el color del borde. El color puede ser hex, rgb o código semántico.)*/
+
+button {
+    border: 2px dotted green;
+}
+
+div {
+    border: 1px solid #000000;
+}
+
+p {
+    border-right: 1px groove rgb(100, 100, 100);
+    border-left: 1px groove rgb(200, 200, 200);
+}
+
+
+/*border-radius (permite dar una apariencia curva a las esquinas de tu borde. Los valores puede ser establecidos utilizando px o %.)*/
+
+button {
+    border-radius: 5px;
+}
