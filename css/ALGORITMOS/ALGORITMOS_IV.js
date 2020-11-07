@@ -36,11 +36,10 @@ console.log(printHigher(array));
 
 /*Dado un array, imprime los valores máximos (max), 
 mínimos (min) y promedio (average) para el array. */
-var arreglo1 = [3, 4, 5];
-const pi = 3,
-    1415;
 
-function maxMinProm(array) {
+var arreglo1 = [3, 4, 5];
+
+function maxMinProm(array) { //array = (3) [4,3,1]
     if (array.length >= 1) {
         let max = array[0];
         let min = array[0];
@@ -64,7 +63,7 @@ function maxMinProm(array) {
 }
 e = maxMinProm([9]);
 var arreglo2 = [4, 3, 1];
-c = maxMinProm(arreglo1);
+c = maxMinProm([3, 4, 5]);
 d = maxMinProm(arreglo2);
 
 
