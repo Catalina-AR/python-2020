@@ -38,7 +38,7 @@ console.log(a(10)); //'40'
 
 /** 6 **/
 function a(b) { //b=15       
-    if (b < 10) { //15<10=>false
+    if (b < 10) { //15<10=>falso
         return 2;
     } else {
         return 4; //b=4 => a=4
@@ -58,12 +58,12 @@ console.log(a(3, 10)); //'30'
 
 
 /** 8 **/
-function a(b) { //
-    for (var i = 0; i < 10; i++) { //
-        console.log(i); //
-    } //
-    return i; //
-} //
+function a(b) {
+    for (var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+    return i;
+}
 console.log(3); //'3'
 console.log(4); //'4'
 //R:3,4
@@ -79,7 +79,7 @@ a();
 
 /** 10 **/
 function a(b, c) { //b=0 c=10 
-    for (var i = b; i < c; i++) { //0<10 true //1<10 true //2<10 true //3<10 true ...  //9<10 true //10<10 false
+    for (var i = b; i < c; i++) { //0<10 true; 1<10 true; 2<10 true; 3<10 true; 4<10 true; 5<10 true ...;9<10 true; 10<10 false
         console.log(i); //-->0,1,2,3,4,5,6,7,8,9
     }
     return b * c; //0*10 = a=0
