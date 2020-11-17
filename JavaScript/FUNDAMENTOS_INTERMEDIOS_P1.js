@@ -137,3 +137,21 @@ function dobleProblemaPar(x) {
     return array
 }
 console.log(dobleProblemaPar([4, "Ulysses", 42, false, 6, 7, 8, 9]))
+
+//PARTE2//
+/** 1
+ * Crea una función Fib(n) que devuelve el enésimo número Fibonacci. Usa recursión para esto. 
+ */
+
+function fibonaccirecursivo(x) {
+    if (x == 0 || x == 1) {
+        return x
+    }
+    return (fibonaccirecursivo(x - 2) + fibonaccirecursivo(x - 1))
+}
+z = fibonaccirecursivo(10);
+console.log(z);
+
+/** 2
+ *  Relleno recursivo - por favor mira más abajo.
+ */
