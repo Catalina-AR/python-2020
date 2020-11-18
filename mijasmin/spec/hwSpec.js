@@ -10,6 +10,8 @@ function Sum1toN(n) {
 function sumFirstLast(arr) {
     return arr[0] + arr[arr.length - 1];
 }
+//Imprime (print) el menor, devuelve (return) el mayor - Crea una función que tome un array de números. 
+// La función debería imprimir (print) el menor valor del array, y devolver (return) el mayor. 
 
 describe("Sum1toN", function() {
     it("should return 3 when we pass 2 as an argument", function() {
