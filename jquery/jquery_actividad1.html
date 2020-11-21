@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#butt').click(function() {
+                $('#p1').addClass('red');
+            });
+
+            $('#slide').click(function() {
+                $('#foto').slideToggle("slow", function() {});
+            });
+
+
+            $('#tggle').click(function() {
+                $('#p2').toggle();
+            });
+
+            $('#apend').click(function() {
+                $(".inner").append("<p>Test</p>")
+            });
+
+            $('#slideup').click(function() {
+                $(".slideupanddown").slideUp()
+            });
+            $('#slidedown').click(function() {
+                $(".slideupanddown").slideDown()
+            });
+            $('#fadein').click(function() {
+                $('#foto1').fadeIn()
+            });
+
+            $('#fadeout').click(function() {
+                $('#foto1').fadeOut()
+            });
+
+            $('#before').click(function() {
+                $('.puntomedio').before("<p>Hello</p>")
+            });
+
+            $('#after').click(function() {
+                $('.puntomedio').after("<p>Hello</p>")
+            });
+
+            $('#html').click(function() {
+                $('#html p').html("<a href='https://jquery.com'>Now it is a link!</a>");
+            });
+
+            $("#attr").click(function() {
+                $("#foto2").attr("width", "500");
+            });
+
+            $('#INPUT').keyup(function() {
+                    var value = $(this).val();
+                    $(".inputvalue").text(value);
+                })
+                .keyup();
+
+            $('#text button').click(function() {
+                $('#text p').text("You just changed the text:)!");
+            });
+
+            $("#hide").click(function() {
+                $("span:last-child").hide("fast", function() {
+                    $(this).prev().hide("fast", arguments.callee);
+                });
+            });
+            $("#show").click(function() {
+                $("span").show(2000);
+            });
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="jquery_act1.css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AddClass</h1>
+        <div class="secondline">
+            <button id="butt">AddClass</button>
+            <p id="p1">Click the button to add class 'red' to this paragraph</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Toggle</h1>
+        <div class="secondline">
+            <button id="tggle">Toggle it</button>
+            <p id="p2">Click the button to toggle this paragraph</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Slidetoggle</h1>
+        <div class="text">
+            <button id='slide'>Slidetoggle</button>
+            <p>Click the button to slidetoggle a image</p>
+
+        </div>
+        <div class="imagen">
+            <img id="foto" src="imagenes_pag1/hi.png" width="100" height="123">
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Append</h1>
+        <div class="text">
+            <button id='apend'>Append</button>
+            <p>Click the button to append a new paragraph!</p>
+            <div class="inner"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="h1">Hide and Show</h1>
+        <div class="text">
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+            <div class="spans">
+                <span>Once</span> <span>upon</span> <span>a</span>
+                <span>time</span> <span>there</span> <span>were</span>
+                <span>three</span> <span>programmers...</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="h1">Slide Up and Slide Down</h1>
+        <div class="text">
+            <button id='slideup'>SlideUp</button>
+            <button id='slidedown'>SlideDown</button>
+            <p class='slideupanddown'>Click the button to slide up and down</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>FadeIn and FadeOut</h1>
+        <div class="text">
+            <button id='fadein'>FadeIn</button>
+            <button id='fadeout'>FadeOut</button>
+            <p>Click the button to fadeIn and fadeOut</p>
+
+        </div>
+        <div class="imagen">
+            <img id="foto1" src="imagenes_pag1/homer.jpg" width="100" height="123">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Before and After</h1>
+        <div class="text">
+            <button id='before'>Before</button>
+            <button id='after'>After</button>
+            <p class="puntomedio">Click the button to insert "Hello" before of after this paragraph!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>HTML element</h1>
+        <div id="html">
+            <button id="page">html</button>
+            <p>Click the button to make this paragraph to be a link</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1> Attribute</h1>
+        <div class="text">
+            <button id='attr'>width</button>
+            <p class="atributo" href=>Press the button to change the Attribute width</p>
+        </div>
+        <div class="imagen2">
+            <img id="foto2" src="imagenes_pag1/gato.jpg" width="100" height="123">
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Show Value</h1>
+        <div class="text">
+            <input id='INPUT' type="text" value="Insert text and see what happen"><br>
+            <p class="inputvalue"></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Insert Text</h1>
+        <div id="text">
+            <button id="tx">text</button>
+            <p>Click the button to change the text of this paragraph</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

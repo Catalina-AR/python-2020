@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    border-bottom: 3px solid black;
+    margin-left: 157px;
+    text-align: center;
+}
+
+.text {
+    display: block;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.spans {
+    text-align: center;
+    display: inline-block;
+}
+
+.red {
+    color: red;
+}
+
+.hsh {
+    display: inline-block;
+    text-align: center;
+    margin-left: 392px;
+    margin-bottom: 10px;
+}
+
+#html {
+    text-align: center;
+}
