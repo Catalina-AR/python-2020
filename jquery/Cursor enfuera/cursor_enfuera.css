@@ -6,16 +6,11 @@ img {
     border-style: solid;
 }
 
-#restore {
-    width: 111px;
-    height: 41px;
-    font-size: 18px;
-    position: static;
-    background-color: chartreuse;
-    color: seashell;
-}
-
 .boton {
     position: static;
     margin-left: 58px;
+}
+
+#container {
+    text-align: center;
 }
