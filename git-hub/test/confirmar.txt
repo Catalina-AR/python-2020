@@ -1,0 +1,16 @@
+git add .
+git commit -m "se crea carpeta git"
+$ git push
+$ git commit -m "Actualizacion de html"
+$ git push
+$ git add .
+$ git commit -m "Actualizacion de css"
+$ git push
+$ git log
+$ git revert -n HEAD
+$ git revert -n 6d6796ccf34415d710663536cb5f46a4758e1017
+$git commit -m "revert 6d6796ccf34415d710663536cb5f46a4758e1017"
+
+
+
+
