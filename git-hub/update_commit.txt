@@ -1,0 +1,9 @@
+primero fui a la pagina que señalaban en la tarea y realice un fork a mi repositorio git hub 
+luego vincule mi repositorio local con el repositorio virtual
+$ git remote add origin https://github.com/Catalina-AR/git_demo.git
+despues realice un git pull lo que llevo la info desde el repositorio virtual a mi repositorio local
+$ git pull origin master
+posteriormente hice un git add . commitie los cambios realizados al archivo index.html $ git commit -m "se modifica archivo index.html"
+y finalmente realize un $ git push origin master para subir el archivo modificado.
+ 
+
