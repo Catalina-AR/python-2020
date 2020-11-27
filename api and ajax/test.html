@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <style>
+        #pokemon {
+            width: 70%;
+            background-color: rgb(136, 194, 136);
+            border-radius: 8px;
+            padding-left: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        #pokedex {
+            width: 20%;
+            display: inline-block;
+            background-color: pink;
+            vertical-align: top;
+            text-align: center;
+            border-radius: 8px;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+    </style>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            for (var i = 1; i < 152; i++) {
+                $("#pokemon").append("<img src=http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/" + i + ".png id=" + i + ">");
+            }
+            $(document).on('click', 'img', function() {
+                var x = $(this).attr("id");
+                $.get("https://pokeapi.co/api/v2/pokemon/" + x + "/", function(resp) {
+                    var name = "";
+                    name += "<h3>" + resp.name + "</h3>";
+                    $("#name").html("<div>" + name + "</div>");
+                }, "json");
+
+                $("#imagen").html("<img src=http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/" + x + ".png id=" + x + ">")
+                $.get("https://pokeapi.co/api/v2/pokemon/" + x + "/", function(resp1) {
+                    var tipo = "";
+                    tipo += "<h3>Types</h3>";
+                    tipo += "<ul>";
+                    for (var i = 0; i <li resp1.types.length; i++) {
+                        tipo += "<li>" + resp1.types[i].type.name + "</li>"
+                    }
+                    tipo += "</ul>"
+                    $("#tipo").html("<div>" + tipo + "</div>");
+                }, "json");
+
+                $.get("https://pokeapi.co/api/v2/pokemon/" + x + "/", function(resp2) {
+                    var height = "";
+                    height += "<h3>Heigth</h3>";
+                    height += "<ul>"
+                    height += "<li>" + resp2.height + "</li>";
+                    $("#height").html("<div>" + height + "</div>");
+                }, "json");
+
+                $.get("https://pokeapi.co/api/v2/pokemon/" + x + "/", function(resp3) {
+                    var weight = "";
+                    weight += "<h3>Weigth</h3>";
+                    weight += "<ul>"
+                    weight += "<li>" + resp3.weight + "</li>";
+                    $("#weight").html("<div>" + weight + "</div>");
+                }, "json");
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="pokemon"></div>
+    <div id="pokedex">
+        <h1>Pokedex</h1>
+        <div id="name"></div>
+        <div id="imagen"></div>
+        <div id="tipo"></div>
+        <div id="height"></div>
+        <div id="weight"></div>
+    </div>
+</body>
+
+</html>
