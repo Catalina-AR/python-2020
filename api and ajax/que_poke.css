@@ -1,18 +1,40 @@
 #wrapper {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-#pokemonList {
-    display: inline-block;
-    width: 700px;
-    border: 1px solid black;
+    padding: 15px;
     text-align: center;
 }
 
-#pokemonInfo {
+div {
     display: inline-block;
-    width: 240px;
-    border: 3px solid red;
     vertical-align: top;
+}
+
+#pokemon {
+    width: 60%;
+}
+
+#info {
+    width: 16%;
+    border-top: red solid 20px;
+    border-right: red solid 20px;
+    border-left: red solid 20px;
+    border-bottom: red solid 50px;
+    padding: 6px 10px 12px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: initial;
+}
+
+ul {
+    text-align: initial;
+}
+
+p {
+    text-align: initial;
 }
