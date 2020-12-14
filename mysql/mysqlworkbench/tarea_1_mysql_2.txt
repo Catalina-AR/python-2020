@@ -1,0 +1,101 @@
+MariaDB [catalina]> CREATE TABLE alumnos (id INT,nombre VARCHAR(30), edad INT);
+Query OK, 0 rows affected (0.078 sec)
+
+MariaDB [catalina]> show table status;
++------------+--------+---------+------------+------+----------------+-------------+-----------------+--------------+-----------+----------------+---------------------+-------------+------------+--------------------+----------+----------------+---------+------------------+-----------+
+| Name       | Engine | Version | Row_format | Rows | Avg_row_length | Data_length | Max_data_length | Index_length | Data_free | Auto_increment | Create_time         | Update_time | Check_time | Collation          | Checksum | Create_options | Comment | Max_index_length | Temporary |
++------------+--------+---------+------------+------+----------------+-------------+-----------------+--------------+-----------+----------------+---------------------+-------------+------------+--------------------+----------+----------------+---------+------------------+-----------+
+| acu├▒a      | InnoDB |      10 | Dynamic    |    9 |           1820 |       16384 |               0 |            0 |         0 |             14 | 2020-11-30 20:06:05 | NULL        | NULL       | utf8_spanish_ci    |     NULL |                |         |                0 | N         |
+| alumnos    | InnoDB |      10 | Dynamic    |    0 |              0 |       16384 |               0 |            0 |         0 |           NULL | 2020-12-14 20:05:00 | NULL        | NULL       | utf8mb4_general_ci |     NULL |                |         |                0 | N         |
+| cualquiera | InnoDB |      10 | Dynamic    |    0 |              0 |       16384 |               0 |            0 |         0 |              1 | 2020-11-30 20:14:56 | NULL        | NULL       | utf8_spanish_ci    |     NULL |                |         |                0 | N         |
++------------+--------+---------+------------+------+----------------+-------------+-----------------+--------------+-----------+----------------+---------------------+-------------+------------+--------------------+----------+----------------+---------+------------------+-----------+
+3 rows in set (0.003 sec)
+
+MariaDB [catalina]> SELECT * FROM ALUMNOS
+    -> ;
+Empty set (0.001 sec)
+
+MariaDB [catalina]> INSERT INTO alumnos VALUES (1,'Carlos Martín', 20);
+Query OK, 1 row affected, 1 warning (0.038 sec)
+
+MariaDB [catalina]> INSERT INTO alumnos VALUES (2,'Alberto Jurado', 19);
+Query OK, 1 row affected (0.036 sec)
+
+MariaDB [catalina]> INSERT INTO alumnos VALUES (3,'Jose Sanchez', 22);
+Query OK, 1 row affected (0.037 sec)
+
+MariaDB [catalina]> SELECT * FROM ALUMNOS;
++------+----------------+------+
+| id   | nombre         | edad |
++------+----------------+------+
+|    1 | Carlos Mart?n  |   20 |
+|    2 | Alberto Jurado |   19 |
+|    3 | Jose Sanchez   |   22 |
++------+----------------+------+
+3 rows in set (0.000 sec)
+
+MariaDB [catalina]> SELECT id, nombre FROM alumnos WHERE id = 2;
++------+----------------+
+| id   | nombre         |
++------+----------------+
+|    2 | Alberto Jurado |
++------+----------------+
+1 row in set (0.036 sec)
+
+MariaDB [catalina]> UPDATE mitabla SET nombre = 'Willy' WHERE id =2;
+ERROR 1146 (42S02): Table 'catalina.mitabla' doesn't exist
+MariaDB [catalina]> UPDATE alumnos SET nombre = 'Willy' WHERE id = 2;
+Query OK, 1 row affected (0.039 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [catalina]> SELECT * FROM ALUMNOS;
++------+---------------+------+
+| id   | nombre        | edad |
++------+---------------+------+
+|    1 | Carlos Mart?n |   20 |
+|    2 | Willy         |   19 |
+|    3 | Jose Sanchez  |   22 |
++------+---------------+------+
+3 rows in set (0.000 sec)
+
+MariaDB [catalina]> UPDATE alumnos SET nombre = 'Willy w ' WHERE id = 2;
+Query OK, 1 row affected (0.037 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [catalina]> UPDATE alumnos SET nombre = 'Willy Wonca ' WHERE id = 2;
+Query OK, 1 row affected (0.037 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [catalina]> SELECT * FROM ALUMNOS;
++------+---------------+------+
+| id   | nombre        | edad |
++------+---------------+------+
+|    1 | Carlos Mart?n |   20 |
+|    2 | Willy Wonca   |   19 |
+|    3 | Jose Sanchez  |   22 |
++------+---------------+------+
+3 rows in set (0.000 sec)
+
+MariaDB [catalina]> SELECT id, nombre FROM alumnos;
++------+---------------+
+| id   | nombre        |
++------+---------------+
+|    1 | Carlos Mart?n |
+|    2 | Willy Wonca   |
+|    3 | Jose Sanchez  |
++------+---------------+
+3 rows in set (0.000 sec)
+
+MariaDB [catalina]> DELETE FROM alumnos WHERE id = 3;
+Query OK, 1 row affected (0.037 sec)
+
+MariaDB [catalina]> SELECT * FROM ALUMNOS;
++------+---------------+------+
+| id   | nombre        | edad |
++------+---------------+------+
+|    1 | Carlos Mart?n |   20 |
+|    2 | Willy Wonca   |   19 |
++------+---------------+------+
+2 rows in set (0.001 sec)
+
+MariaDB [catalina]>
