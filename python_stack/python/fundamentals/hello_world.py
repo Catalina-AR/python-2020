@@ -14,5 +14,5 @@ print( "Hello" + name) # con un + - !Este debería darnos un error!
 # 4. Imprimir "Me encanta comer sushi and pizza." con los alimentos en variables
 fave_food1 = "sushi"
 fave_food2 = "pizza"
-print( "I love to eat {} and {}.".format(fave_food1, fave_food2)) # with .format()
-print(f"I love to eat {fave_food1} and {fave_food2}.")  # with an f string
+print( "Me encanta comer {} y {}.".format(fave_food1, fave_food2)) # with .format()
+print(f"Me encanta comer {fave_food1} y {fave_food2}.")  # with an f string
