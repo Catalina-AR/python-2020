@@ -1,0 +1,343 @@
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  python -m venv py3Env
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ ls -la
+total 4
+drwxr-xr-x 1 Catalina 197121 0 dic. 16 20:31 ./
+drwxr-xr-x 1 Catalina 197121 0 dic. 16 19:12 ../
+drwxr-xr-x 1 Catalina 197121 0 dic. 16 20:31 py3Env/
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ cd py3Env
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments/py3Env (master)
+$ cd -
+/c/Users/Catalina/Desktop/talento_digital/python-2020/python_stack/my_environments
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  source py3Env/Scripts/activate
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ deactivate
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  source py3Env/Scripts/activate
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ deactivate
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip list
+bash: pip: command not found
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  source py3Env/Scripts/activate
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip3list
+bash: pip3list: command not found
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  source py3Env/Scripts/activate
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip3 list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ deactivate
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip3 list
+bash: pip3: command not found
+
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$  source py3Env/Scripts/activate
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip install Django==1.11.9
+Collecting Django==1.11.9
+  Downloading Django-1.11.9-py2.py3-none-any.whl (6.9 MB)
+Collecting pytz
+  Downloading pytz-2020.4-py2.py3-none-any.whl (509 kB)
+Installing collected packages: pytz, Django
+Successfully installed Django-1.11.9 pytz-2020.4
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip freeze
+Django==1.11.9
+pytz==2020.4
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ pip3 list
+Package    Version
+---------- -------
+Django     1.11.9
+pip        20.1.1
+pytz       2020.4
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/Desktop/talento_digital/python-2020/python_stack/my_environments (master)
+$ cd
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~
+$ cd desktop
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip freeze
+Django==1.11.9
+pytz==2020.4
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip freeze > requirements.txt
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ ls- la
+bash: ls-: command not found
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ ls -la
+total 96292
+drwxr-xr-x 1 Catalina 197121        0 dic. 16 20:48  ./
+drwxr-xr-x 1 Catalina 197121        0 dic. 16 20:30  ../
+-rwxr-xr-x 1 Catalina 197121      906 sep. 22 08:07  µTorrent.lnk*
+drwxr-xr-x 1 Catalina 197121        0 nov. 18 22:30  ALGORITMOS/
+drwxr-xr-x 1 Catalina 197121        0 sep. 21 19:04 'Among Us V.2020.9.9 (Master Tutos Canal YT)'/
+drwxr-xr-x 1 Catalina 197121        0 dic. 15 18:49 'bases de datos tareas coding'/
+-rw-r--r-- 1 Catalina 197121      404 dic.  3 19:33 'bases de datos.txt'
+drwxr-xr-x 1 Catalina 197121        0 nov. 26 19:56  basic_repo/
+-rw-r--r-- 1 Catalina 197121    15163 dic.  4 21:13  Blog.mwb
+drwxr-xr-x 1 Catalina 197121        0 nov. 13 00:16 'bootstrap pagina completa'/
+-rw-r--r-- 1 Catalina 197121    10266 dic. 16 19:04 'carpetas proyecto python.png'
+-rw-r--r-- 1 Catalina 197121     3628 dic. 14 22:25  catalina.sql
+drwxr-xr-x 1 Catalina 197121        0 oct. 30 20:30  complementos/
+-rw-r--r-- 1 Catalina 197121    80645 dic.  1 11:11 'Copia de formato_masivo.xlsx'
+-rw-r--r-- 1 Catalina 197121     1191 nov. 30 21:47  creacion.sql
+-rw-r--r-- 1 Catalina 197121     1470 nov. 30 20:21  cualquiera.sql
+-rw-r--r-- 1 Catalina 197121      282 sep. 22 05:58  desktop.ini
+-rw-r--r-- 1 Catalina 197121 87912232 sep. 18 20:40  DJI_0056.MP4
+drwxr-xr-x 1 Catalina 197121        0 sep. 27 11:49 'documentos fundacion mi casa'/
+-rw-r--r-- 1 Catalina 197121   930443 dic.  2 22:24 'El desafío hacia la Transformación Digital en Chile.pdf'
+-rw-r--r-- 1 Catalina 197121    19332 dic. 10 23:07 'entrandol a bases de datos.txt'
+drwxr-xr-x 1 Catalina 197121        0 oct. 18 06:37 'evaluacion 4 años'/
+-rw-r--r-- 1 Catalina 197121     2494 dic. 16 18:00  friendship.txt
+drwxr-xr-x 1 Catalina 197121        0 nov. 27 05:17  git_demo/
+drwxr-xr-x 1 Catalina 197121        0 nov.  2 20:44  git-hub/
+-rw-r--r-- 1 Catalina 197121  1489572 dic.  9 18:10  GMT20201020-210536_Full-Stack_640x360.mp4
+drwxr-xr-x 1 Catalina 197121        0 oct. 22 00:50 'Java script basics'/
+-rw-r--r-- 1 Catalina 197121   978834 dic.  8 03:26 'La casa de los espiritus     -Allende, Isabel -.pdf'
+-rwxr-xr-x 1 Catalina 197121     2401 sep. 22 19:32  Mattermost.lnk*
+-rw-r--r-- 1 Catalina 197121     9771 dic. 14 18:38 'morepractice (1).sql'
+-rw-r--r-- 1 Catalina 197121     9771 dic. 10 19:46  morepractice.sql
+-rw-r--r-- 1 Catalina 197121   455048 dic.  7 19:34  MVC-advanced-assignment.pdf
+-rw-r--r-- 1 Catalina 197121     3300 dic.  7 22:00  mysql.txt
+-rw-r--r-- 1 Catalina 197121    24946 dic.  9 17:08  nosenoabrir.txt
+drwxr-xr-x 1 Catalina 197121        0 nov. 26 20:45  packages/
+drwxr-xr-x 1 Catalina 197121        0 nov.  2 21:22 'para less'/
+-rw-r--r-- 1 Catalina 197121     2018 nov. 30 18:21  POKEDEX.txt
+drwxr-xr-x 1 Catalina 197121        0 nov. 11 01:40 'prueba fran'/
+drwxr-xr-x 1 Catalina 197121        0 dic. 16 18:33 'prueba fran2'/
+drwxr-xr-x 1 Catalina 197121        0 sep. 22 04:33  python_course/
+drwxr-xr-x 1 Catalina 197121        0 nov.  7 10:14  repaso-algoritmos/
+-rw-r--r-- 1 Catalina 197121       30 dic. 16 20:48  requirements.txt
+-rw-r--r-- 1 Catalina 197121  3518759 dic. 15 17:19  sakila-data.sql
+-rw-r--r-- 1 Catalina 197121     4014 dic. 15 18:54  sakilla_tarea.txt
+-rw-r--r-- 1 Catalina 197121    79722 dic. 10 22:38  Screen-Shot-2013-10-08-at-10.24.19-PM.png
+-rwxr-xr-x 1 Catalina 197121  2786328 nov.  9 20:15  setup-lightshot.exe*
+drwxr-xr-x 1 Catalina 197121        0 oct. 31 12:39  Smart-Agency/
+-rwxr-xr-x 1 Catalina 197121     1872 sep. 22 08:19  Spotify.lnk*
+-rwxr-xr-x 1 Catalina 197121     2324 nov.  7 19:56  Stremio.lnk*
+drwxr-xr-x 1 Catalina 197121        0 dic.  1 19:48  sueltas/
+-rw-r--r-- 1 Catalina 197121     2169 nov.  9 22:05  tabla-periodica-opcional.zip
+drwxr-xr-x 1 Catalina 197121        0 nov.  5 19:10  talento_digital/
+-rw-r--r-- 1 Catalina 197121     3364 dic. 10 23:06 'tarea 1 msql2.txt'
+-rw-r--r-- 1 Catalina 197121     5030 dic. 14 20:18 'tarea 1 mysql 2.txt'
+-rw-r--r-- 1 Catalina 197121     3364 dic. 14 21:29  tarea_2_msql2.txt
+drwxr-xr-x 1 Catalina 197121        0 nov. 26 18:24  test/
+-rw-r--r-- 1 Catalina 197121     7834 dic.  9 19:14  twitter.sql
+-rw-r--r-- 1 Catalina 197121     7732 dic.  9 19:09  twitter_reparado.sql
+-rw-r--r-- 1 Catalina 197121      251 dic. 14 22:25  uno.sql
+-rwxr-xr-x 1 Catalina 197121     1416 sep. 22 08:24 'Visual Studio Code.lnk'*
+-rwxr-xr-x 1 Catalina 197121     2792 oct. 30 03:27 'YouTube Music.lnk'*
+-rwxr-xr-x 1 Catalina 197121     1947 dic. 14 22:58  Zoom.lnk*
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ cd requerements.tx
+bash: cd: requerements.tx: No such file or directory
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip freeze
+Django==1.11.9
+pytz==2020.4
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ cd requerements.tx
+bash: cd: requerements.tx: No such file or directory
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip uninstall django
+Found existing installation: Django 1.11.9
+Uninstalling Django-1.11.9:
+  Would remove:
+    c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\django-1.11.9.dist-info\*
+    c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\django\*
+    c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\django-admin.exe
+    c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\django-admin.py
+Proceed (y/n)? y
+  Successfully uninstalled Django-1.11.9
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip show django
+WARNING: Package(s) not found: django
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip search flask
+ERROR: Exception:
+Traceback (most recent call last):
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\cli\base_command.py", line 188, in _main
+    status = self.run(options, args)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 52, in run
+    pypi_hits = self.search(query, options)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 71, in search
+    hits = pypi.search({'name': query, 'summary': query}, 'or')
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\network\xmlrpc.py", line 38, in request
+    return self.parse_response(response.raw)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1341, in parse_response
+    return u.close()
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -32500: 'RuntimeError: This API has been temporarily disabled due to unmanageable load and will be deprecated in the near future. Please use the Simple or JSON API instead.'>
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip search flask
+ERROR: Exception:
+Traceback (most recent call last):
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\cli\base_command.py", line 188, in _main
+    status = self.run(options, args)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 52, in run
+    pypi_hits = self.search(query, options)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 71, in search
+    hits = pypi.search({'name': query, 'summary': query}, 'or')
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\network\xmlrpc.py", line 38, in request
+    return self.parse_response(response.raw)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1341, in parse_response
+    return u.close()
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -32500: 'RuntimeError: This API has been temporarily disabled due to unmanageable load and will be deprecated in the near future. Please use the Simple or JSON API instead.'>
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip flask
+ERROR: unknown command "flask"
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ ^C
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip install flask
+Collecting flask
+  Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp38-cp38-win32.whl (16 kB)
+Installing collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, click, flask
+Successfully installed Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 flask-1.1.2 itsdangerous-1.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ pip search flask
+ERROR: Exception:
+Traceback (most recent call last):
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\cli\base_command.py", line 188, in _main
+    status = self.run(options, args)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 52, in run
+    pypi_hits = self.search(query, options)
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\commands\search.py", line 71, in search
+    hits = pypi.search({'name': query, 'summary': query}, 'or')
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "c:\users\catalina\desktop\talento_digital\python-2020\python_stack\my_environments\py3env\lib\site-packages\pip\_internal\network\xmlrpc.py", line 38, in request
+    return self.parse_response(response.raw)
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 1341, in parse_response
+    return u.close()
+  File "C:\Users\Catalina\AppData\Local\Programs\Python\Python38-32\lib\xmlrpc\client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -32500: 'RuntimeError: This API has been temporarily disabled due to unmanageable load and will be deprecated in the near future. Please use the Simple or JSON API instead.'>
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ ^C
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$ cd requerements.tx^C
+(py3Env)
+Catalina@LAPTOP-1834Q44E MINGW64 ~/desktop
+$
