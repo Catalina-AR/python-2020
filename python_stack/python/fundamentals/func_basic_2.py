@@ -3,7 +3,7 @@
 
 def cuenta_atras(num):
 	if num < 0:
-		return "invalid input : num less than 0"
+		return
 	output = [num]
 	for i in range(num-1, 0-1, -1):
 		output.append(i)
