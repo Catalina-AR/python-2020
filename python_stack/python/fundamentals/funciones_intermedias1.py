@@ -27,25 +27,25 @@ print(randInt(min=50, max=500))
 import random
 def randFloat(min=0.00  , max= 1.00):
     num = random.random()
-    return num
+    return round(num)
 print(randFloat())
 
 import random
 def randFloat(min=0.00  , max= 50.99):
     num = random.random()*50
-    return num
+    return round(num)
 print(randFloat())
 
 import random
 def randFloat(min=10.00 , max= 35.99  ):
     num = random.random() * 25 + 10
-    return num
+    return round(num)
 print(randFloat())
 
 import random
 def randRound(min=0.000 , max=3.141592653):
     num = round()
-    return num
+    return round(num)
 print(randRound())
 
 
