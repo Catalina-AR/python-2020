@@ -19,5 +19,5 @@ class BankAccount:
         return self
 cuenta1 = BankAccount(0.05,100)
 cuenta2 = BankAccount(0.05,1000)
-cuenta1.deposit(100).deposit(100).deposit(100).withdraw(50).yield_interest().display_account_info()
-cuenta2.deposit(500).deposit(500).withdraw(25).withdraw(25).withdraw(25).withdraw(25).yield_interest().display_account_info()
+cuenta1.deposit(100).deposit(150).deposit(150).withdraw(50).yield_interest().display_account_info()
+cuenta2.deposit(300).deposit(300).withdraw(100).withdraw(100).withdraw(50).withdraw(50).yield_interest().display_account_info()
