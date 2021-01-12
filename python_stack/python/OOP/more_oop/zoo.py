@@ -35,12 +35,12 @@ class Animals(Zoo):
         self.nivel_felicidad += 10
 
 class Leones(Animals):
-    def __init__(self, name, edad, liderazgo=100):
-        self.liderazgo = liderazgo
+    def __init__(self, name, edad, velocidad=100):
+        self.velocidad = velocidad
         super().__init__(name, edad, 1000, 1000)
 
     def display_info(self):
-        print('\nNombre:\t', self.name, '\nEdad:\t', self.edad, '\nNivel de salud:\t', self.nivel_salud, '\nNivel de felicidad:\t', self.nivel_felicidad, '\nNivel de liderazgo:\t', self.liderazgo)
+        print('\nNombre:\t', self.name, '\nEdad:\t', self.edad, '\nNivel de salud:\t', self.nivel_salud, '\nNivel de felicidad:\t', self.nivel_felicidad, '\nNivel de velocidad:\t', self.velocidad)
         return self
 
     def alimentacion(self):
@@ -61,8 +61,8 @@ class Osos(Animals):
 
 
 
-zoologico=Zoo('Zoologico Nacional')
-zoologico.add_animal('Simba',30,'leon').alimentacion()
-zoologico.add_animal('Nala',20, 'tigre')
-zoologico.add_animal('Baloo',10,'oso')
+zoologico=Zoo('zoologico metropolitano')
+zoologico.add_animal('Nala',3,'leon').alimentacion()
+zoologico.add_animal('Tambor',7, 'tigre')
+zoologico.add_animal('Baloo',5,'oso')
 zoologico.print_all_info()
