@@ -10,8 +10,6 @@ class Zoo:
             self.animals.append(Tigres(name, edad))
         elif str(tipo) == 'oso':
             self.animals.append(Osos(name, edad))
-        else:
-            print('tipo no implementado')
         return self.animals[len(self.animals)-1]
 
     def print_all_info(self):
