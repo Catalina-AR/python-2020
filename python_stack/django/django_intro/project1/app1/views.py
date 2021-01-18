@@ -7,8 +7,7 @@ from django.shortcuts import render
     #'''
     #return HttpResponse("this is the equivalent of @app.route('/')!")
 
-from django.shortcuts import redirect, HttpResponse
-
+from django.shortcuts import HttpResponse, redirect
 
 def indice(Request):
     return HttpResponse("marcador de posición para luego mostrar una lista de todos los blogs")
