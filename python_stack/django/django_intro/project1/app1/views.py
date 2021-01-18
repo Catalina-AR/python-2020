@@ -18,7 +18,7 @@ def nuevo (Request):
 def create(request):
 	return redirect("/")
 
-def show (Request, my_val):
+def show (Request, valor):
     return HttpResponse(f"marcador de posicion para mostrar el numero de blog: {my_val}")
 
 def editar (Request):
