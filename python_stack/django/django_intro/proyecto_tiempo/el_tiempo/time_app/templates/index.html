@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <title>Show time</title>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static  'static/css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static  'css/style.css' %}">
 </head>
 <body>
-<div class="main">
+<div class="cuerpo">
     <h1 id="title">The current time and date </h1>
-        <div class="container display">
-        <h1>{{ fecha }}</h1>
-        <h1>{{ hora }}</h1>
-    </div>
-
 </div>
-
+<div class="container">
+        <h2>{{ fecha }}</h2>
+        <h2>{{ hora }}</h2>
 </div>
 </body>
 </html>

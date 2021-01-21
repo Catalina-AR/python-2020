@@ -1,5 +1,31 @@
 h1{
     color: black;
     text-align: center;
+    font-family:cursive;
+    font-size: xx-large;
+    border-style: groove;
+    border-color: lavender;
+    border-width: thick;
+    padding: 7px;
+    margin-left: 518px;
+    margin-right:505px ;
+    background-image: radial-gradient(circle at 50% -20.71%, #f4d7e0 0, #f5d7dd 6.25%, #f6d7db 12.5%, #f6d8d8 18.75%, #f6d8d5 25%, #f6d8d3 31.25%, #f5d9d1 37.5%, #f4d9cf 43.75%, #f2dacd 50%, #f0dbcc 56.25%, #eedcca 62.5%, #ecdcca 68.75%, #e9ddc9 75%, #e6dec9 81.25%, #e3dfca 87.5%, #e0e0ca 93.75%, #dde1cb 100%);
+}
+
+.container{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size:x-large;
+    border-width: thick;
+    border-style: ridge;
+    border-color: antiquewhite;
+    width: 39%;
+    margin-left: 463px;
+    background-image: linear-gradient(180deg, #b6affe 0, #c3acf9 8.33%, #cea8f3 16.67%, #d9a5ed 25%, #e2a2e5 33.33%, #eb9fdd 41.67%, #f29dd5 50%, #f89bcc 58.33%, #fd9ac3 66.67%, #ff99ba 75%, #ff99b0 83.33%, #ff99a7 91.67%, #ff9a9e 100%);
+}
+body{
+  background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 

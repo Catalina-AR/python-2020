@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 from django.shortcuts import render, HttpResponse
 from time import gmtime, strftime
-from datetime import datetime
+
 
 
 def index(request):
@@ -21,5 +21,5 @@ def tiempo(request):
         "hora": strftime("%H:%M %p", gmtime()),
 
     }
+    
     return render(request, 'index.html', context)
-
