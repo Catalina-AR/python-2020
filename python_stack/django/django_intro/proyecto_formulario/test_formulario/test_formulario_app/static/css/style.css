@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: outset;
+    width: 50%;
+    display: inline-block;
+    margin-left: 349px;
+    font-family: system-ui;
+}
+
+.form{
+    text-align: center;
+ }
+
+#random.word{
+    width: 292px;
+    height: 62px;
+    text-align: center;
+    font-size: xx-large;
+    border-style: double;
+    border-width: thick;
+}
+
+.buttons{
+    width: 1px;
+}
