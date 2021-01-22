@@ -1,3 +1,7 @@
+body{
+    background: rgb(161,184,231);
+    background: radial-gradient(circle, rgba(161,184,231,1) 0%, rgba(238,174,202,1) 100%);
+}
 h1 {
     text-align: center;
     font-size: xxx-large;
@@ -7,8 +11,7 @@ h1 {
     margin-left: 349px;
     font-family: system-ui;
     box-shadow: 2px 2px 5px #999;
-    background-image: radial-gradient(circle at 50% -20.71%, #8fd3e0 0, #90d3e4 6.25%, #93d2e8 12.5%, #97d1eb 18.75%, #9ccfee 25%, #a1cef0 31.25%, #a7ccf1 37.5%, #aecbf2 43.75%, #b5c9f2 50%, #bcc7f1 56.25%, #c3c5f0 62.5%, #cac4ee 68.75%, #d1c2eb 75%, #d7c0e7 81.25%, #ddbfe4 87.5%, #e2bddf 93.75%, #e7bcda 100%);
-
+    background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
 }
 
 .form{
@@ -22,14 +25,17 @@ h1 {
     font-size: xx-large;
     border-style: double;
     border-width: thick;
+    background-image: radial-gradient(circle at 50% -20.71%, #cbe7e1 0, #cae7e3 6.25%, #c9e7e6 12.5%, #c9e7e8 18.75%, #c9e7eb 25%, #c9e7ed 31.25%, #cae6ef 37.5%, #cbe6f1 43.75%, #cde5f2 50%, #cfe4f3 56.25%, #d1e4f4 62.5%, #d4e3f5 68.75%, #d7e2f5 75%, #dae1f5 81.25%, #dde0f4 87.5%, #e0e0f4 93.75%, #e3dff2 100%);
 }
 
 button#button1{
     font-size: x-large;
     box-shadow: 2px 2px 5px #999;
+    background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
 }
 
 button#button2{
     font-size: x-large;
     box-shadow: 2px 2px 5px #999;
+    background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
 }
