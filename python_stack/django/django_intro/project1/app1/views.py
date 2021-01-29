@@ -9,6 +9,8 @@ from django.shortcuts import render
 
 from django.shortcuts import HttpResponse, redirect
 
+
+
 def indice(Request):
     return HttpResponse("marcador de posición para luego mostrar una lista de todos los blogs")
 
