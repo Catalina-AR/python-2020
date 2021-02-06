@@ -9,18 +9,12 @@ class Book(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-    def __repr__(self):
-        return (f"ID: {self.id} Title: {self.title}")
-
 
 class Author(models.Model):
     first_name = models.CharField(max_length=45)
     last_name = models.CharField(max_length=45)
     books = models.ManyToManyField(Book, related_name="authors")
-    notas = models.TextField(default='')
+    notas = models.TextField()
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-
-    def __repr__(self):
-        return (f"ID: {self.id} Last Name: {self.last_name}")
