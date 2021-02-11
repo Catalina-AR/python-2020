@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django/django_intro/django2020" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django/django_orm/sports_orm - copia" vcs="Git" />
   </component>
 </project>
