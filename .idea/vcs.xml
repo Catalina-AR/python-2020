@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/git-hub/git_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_stack/django/django_intro/django2020" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/swapi" vcs="Git" />
   </component>
 </project>
